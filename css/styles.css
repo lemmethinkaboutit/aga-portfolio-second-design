@@ -1,0 +1,191 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.left-col{
+    background-color: #003170;
+   
+}
+
+.left-col, .right-col{
+    color: #fff;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-col{
+    background-color: #75e3dd;
+}
+
+.scroll{
+    color: #2864b1;
+    text-align: center;
+}
+
+.top-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.work{
+    color: #16736e;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+footer{
+    background-color: #f4979c;
+    min-height: 220px;
+    background-image: url('../img/socialmedia.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.social-icon{
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.social-icons-container{
+    text-align: center;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+nav {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    font-family: 'Prata', serif;
+    font-size: 22px;
+}
+
+h1, h2,h3, h4, h5{
+    font-family: 'Prata', serif;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 150px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h2{
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 50px;
+    
+}
+
+.work h3{
+    color: #16736e;
+}
+
+.myteam h3{
+    color: #306fbf;
+    margin: 0 0 90px 0;
+    line-height: 100%;
+}
+
+.work h2{
+    color: #41ccc4;
+}
+
+.myteam h2{
+    color: #003170;
+}
+
+.contact h2{
+    color: #f3747b;
+}
+
+h4{
+    font-size: 30px;
+    color: #16736e;
+    background-color: #75e3dd;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+
+}
+
+.works a{
+    letter-spacing: 3px;
+    color: #2ce6dc;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p{
+    line-height: 145%;
+}
+
+.navigation{
+    text-align: center;
+    color: #20c4bb;
+}
+
+.navigation li{
+    display: inline-block;
+    margin: 0 15px;
+
+    
+}
+
+.works-image {
+    position: relative;
+    width: 100%;
+}
+
+.work h4{
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+}
+
+.extract-gutters {
+padding: 0 60px;
+}
+
+.right-aligned{
+    text-align: right;
+}
+
+.work h4.right-aligned {
+    right: 0;
+}
+
+.margin{
+    margin-bottom: 60px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #20c4bb;
+}
